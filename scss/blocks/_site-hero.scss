@@ -1,0 +1,48 @@
+.site-hero {
+  padding-top: 180px;
+}
+
+#site-hero__section {
+  height: 100vh;
+  background-image: url("../../img/watches.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top 30px right -340px;
+
+}
+
+.hero__title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero__text {
+  margin-top: 70px;
+  padding-left: 40px;
+  width: 530px;
+  line-height: 26px;
+  letter-spacing: .3px;
+  border-left: 3px solid #a0a0a0;
+}
+
+.hero__btn {
+  margin-top: 55px;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  background-color:  #ff0000ad;
+  color: white;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.hero__btn:hover{
+  transform: scale(1.07);
+}
+
+.hero__btn:active{
+  transform: scale(1);
+  transition: all .1s ease;
+}
