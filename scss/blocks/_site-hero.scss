@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top 30px right -340px;
-
 }
 
 .hero__title {
@@ -19,8 +18,33 @@
 .hero__text {
   margin-top: 70px;
   padding-left: 40px;
-  width: 530px;
+  width: 40%;
   line-height: 26px;
   letter-spacing: .3px;
   border-left: 3px solid #a0a0a0;
+}
+
+@media (max-width:1000px) {
+  .site-hero {
+    padding-top: 140px;
+  }  
+
+  .hero__text {
+    width: 100%;
+  }
+}
+
+@media (max-width:700px) {
+  .site-hero {
+    padding-top: 180px;
+    color: white;
+  }
+
+  #site-hero__section {
+    height: 830px;
+    background-image: url("../../img/watches.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 0;
+  }
 }

@@ -27,3 +27,15 @@ footer{
   font-weight: 600;
   letter-spacing: .5px;
 }
+
+@media (max-width:1000px) {
+  .footer{
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__info{
+    width: 100%; 
+  }
+}

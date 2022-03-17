@@ -1,12 +1,15 @@
 .buy{
-  margin-bottom: 50px;
   padding-top: 130px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .buy__info{
   width: 500px;
+  position: static;
+  z-index: 2;
 }
 
 .buy__title{
@@ -24,4 +27,34 @@
 
 .buy__img{
   margin-right: 30px;
+  z-index: 0;
+}
+
+@media (max-width:1000px) {
+  #buy__section{
+    background-image: url(../../img/preview.jpg);
+    background-position: top 0 left 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .buy{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+
+  .buy__img{
+    display: none;
+  }
+  
+  .buy__title{
+    margin-top: 30px;
+    color: white;
+  }
+
+  .buy__text{
+    color: white;
+    border-left: 3px solid white;
+  }
 }
