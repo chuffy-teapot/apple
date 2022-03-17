@@ -1,0 +1,27 @@
+.buy{
+  margin-bottom: 50px;
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy__info{
+  width: 500px;
+}
+
+.buy__title{
+  margin-top: 170px;
+  font-size: 50px;
+}
+
+.buy__text{
+  margin-top: 70px;
+  padding-left: 40px;
+  color: gray;
+  line-height: 27px;
+  border-left: 3px solid gray;
+}
+
+.buy__img{
+  margin-right: 30px;
+}

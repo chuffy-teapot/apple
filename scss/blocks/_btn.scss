@@ -1,0 +1,21 @@
+.btn {
+  margin-top: 55px;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  background-color:  #ff0000ad;
+  color: white;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.btn:hover{
+  transform: scale(1.07);
+}
+
+.btn:active{
+  transform: scale(1);
+  transition: all .1s ease;
+}
